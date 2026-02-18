@@ -11,7 +11,7 @@
 
 body {
   font-family: "Montserrat", sans-serif;
-  color: #e5dae4;
+  color: #fff;
 }
 
 a {
@@ -42,7 +42,7 @@ h6 {
   right: 15px;
   bottom: 15px;
   z-index: 996;
-  background: #149ddd;
+  background: #654ca3;
   width: 40px;
   height: 40px;
   border-radius: 50px;
@@ -51,12 +51,15 @@ h6 {
 
 .back-to-top i {
   font-size: 28px;
-  color: #fff;
+  color: #1e1e20;
   line-height: 0;
 }
 
 .back-to-top:hover {
-  background: #2eafec;
+  background: #745bb4;
+}
+
+.back-to-top:hover i {
   color: #fff;
 }
 
@@ -78,7 +81,7 @@ h6 {
   z-index: 9997;
   transition: all 0.5s;
   padding: 0 15px;
-  background: #3f0370;
+  background: #654ca3;
   overflow-y: auto;
   color: rgb(14, 186, 77);
 }
@@ -87,30 +90,30 @@ h6 {
   margin: 15px auto;
   display: block;
   width: 120px;
-  border: 2px solid #ffffff;
+  border: 2px solid #1e1e20;
 }
 
 #header .profile h1 {
   font-size: 24px;
   margin: 0;
   padding: 0;
-  font-weight: 60;
+  font-weight: 600;
   -moz-text-align-last: center;
   text-align-last: center;
-  font-family: "Poppins", sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 #header .profile h1 a,
 #header .profile h1 a:hover {
-  color: rgb(233, 214, 245);
+  color: #1e1e20;
   text-decoration: none;
 }
 
 #header .profile .social-links a {
   font-size: 14px;
   display: inline-block;
-  background: #bac4ef;
-  color: rgb(49, 43, 55);
+  background: #1e1e20;
+  color: #fff;
   line-height: 1;
   padding: 8px 0px;
   margin-right: 4px;
@@ -122,8 +125,8 @@ h6 {
 }
 
 #header .profile .social-links a:hover {
-  background: #13a426;
-  color: #fff;
+  background: #fff;
+  color: #1e1e20;
   text-decoration: none;
 }
 
@@ -164,18 +167,20 @@ h6 {
 .nav-menu a:focus {
   display: flex;
   align-items: center;
-  color: #a8a9b4;
+  color: #1e1e20;
   padding: 12px 15px;
   margin-bottom: 8px;
   transition: 0.3s;
   font-size: 15px;
+  font-weight: 550;
 }
 
 .nav-menu a i,
 .nav-menu a:focus i {
   font-size: 24px;
+  font-weight: 550;
   padding-right: 8px;
-  color: #6f7180;
+  color: #1e1e20;
 }
 
 .nav-menu a:hover,
@@ -184,13 +189,15 @@ h6 {
 .nav-menu li:hover>a {
   text-decoration: none;
   color: #fff;
+  font-weight: 500;
 }
 
 .nav-menu a:hover i,
 .nav-menu .active i,
 .nav-menu .active:focus i,
 .nav-menu li:hover>a i {
-  color: #c11010;
+  color: #fff;
+  font-weight: 500;
 }
 
 /* Mobile Navigation */
@@ -321,7 +328,7 @@ section {
   margin-bottom: 20px;
   padding-bottom: 20px;
   position: relative;
-  color: #6e3507;
+  color: #CDC3E3;
 }
 
 .section-title h2::after {
@@ -330,7 +337,7 @@ section {
   display: block;
   width: 50px;
   height: 3px;
-  background: #0ea90b;
+  background: #CDC3E3;
   bottom: 0;
   left: 0;
 }
