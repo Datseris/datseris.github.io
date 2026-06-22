@@ -118,7 +118,6 @@ save(joinpath(@__DIR__, "lorenz96.png"), fig)
 
 
 
-
 # %% Ceres
 
 using DelimitedFiles
@@ -129,3 +128,14 @@ fig = display_timeseries(eachcol(X), [1, 3]; decay = 8e-3, linewidth = 3)
 
 save(joinpath(@__DIR__, "ceres.png"), fig)
 
+
+# %% Insolation
+
+using DelimitedFiles
+
+X = StateSpaceSet(readdlm(joinpath(@__DIR__, "16.csv")))
+X = standardize(X[:, 2:5])[1:10:10000]
+
+fig = display_timeseries(X; decay = 8e-3, linewidth = 3)
+
+save(joinpath(@__DIR__, "insolation.png"), fig)
