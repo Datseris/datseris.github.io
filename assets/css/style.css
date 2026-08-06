@@ -365,6 +365,50 @@ section {
 }
 
 /*--------------------------------------------------------------
+# Work with me
+--------------------------------------------------------------*/
+.work-with-me {
+  width: 100%;
+  height: 100vh;
+  overflow: auto;
+  background: url("../backgrounds/roessler.png") center bottom;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.work-with-me .content h3 {
+  font-weight: 700;
+  font-size: 26px;
+  color: #173b6c;
+}
+
+.work-with-me .content ul {
+  list-style: none;
+  padding: 0;
+}
+
+.work-with-me .content ul li {
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.work-with-me .content ul strong {
+  margin-right: 10px;
+}
+
+.work-with-me .content ul i {
+  font-size: 16px;
+  margin-right: 5px;
+  color: #149ddd;
+  line-height: 0;
+}
+
+.work-with-me .content p:last-child {
+  margin-bottom: 0;
+}
+
+/*--------------------------------------------------------------
 # About
 --------------------------------------------------------------*/
 .about {
